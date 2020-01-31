@@ -35,7 +35,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Frontend Developer</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio">
+          <div className="d-flex align-items-center justify-content-center portfolio even">
             <img className="hideImgPort" src="images/portfolios/psycallogy.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
@@ -45,7 +45,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Backend Developer</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio even">
+          <div className="d-flex align-items-center justify-content-center portfolio">
             <img className="hideImgPort" src="images/portfolios/skripsi.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
@@ -55,7 +55,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Data Scientist</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio">
+          <div className="d-flex align-items-center justify-content-center portfolio even">
             <img className="hideImgPort" src="images/portfolios/youtox.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">

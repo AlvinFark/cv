@@ -105,7 +105,7 @@ window.onscroll = function() {
   if (document.body.scrollTop > document.getElementById("portfolios").offsetTop-500 || document.documentElement.scrollTop > document.getElementById("portfolios").offsetTop-500) {
     document.getElementById("portfolios").children[0].classList.add('show');
     document.getElementById("portfolios").children[0].classList.remove('hide');
-    for (let index = 1; index <= 5; index++) {
+    for (let index = 1; index <= 6; index++) {
       setTimeout(() => {
         document.getElementById("portfolios").children[index].children[0].classList.add('showImgPort'); 
         document.getElementById("portfolios").children[index].children[0].classList.remove('hideImgPort'); 

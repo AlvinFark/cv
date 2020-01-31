@@ -6,7 +6,7 @@ const Portfolios = () => {
       <div id="portfolios">
           <div className="headingSection hide" style={{paddingBottom:"20px"}}><h2>Portfolios</h2><div className="underscore"></div></div>
           <div className="d-flex align-items-center justify-content-center portfolio">
-            <img className="hideImgPort" src="/images/portfolios/sikawan.png"/>
+            <img className="hideImgPort" src="images/portfolios/sikawan.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>SiKawan</h3>
@@ -16,7 +16,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio even">
-            <img className="hideImgPort" src="/images/portfolios/blibli.png"/>
+            <img className="hideImgPort" src="images/portfolios/blibli.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>Bliblinventory</h3>
@@ -26,7 +26,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio">
-            <img className="hideImgPort" src="/images/portfolios/cv.png"/>
+            <img className="hideImgPort" src="images/portfolios/cv.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>This CV Page Itself</h3>
@@ -36,7 +36,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio">
-            <img className="hideImgPort" src="/images/portfolios/psycallogy.png"/>
+            <img className="hideImgPort" src="images/portfolios/psycallogy.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>Psycallogy</h3>
@@ -46,7 +46,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio">
-            <img className="hideImgPort" src="/images/portfolios/skripsi.png"/>
+            <img className="hideImgPort" src="images/portfolios/skripsi.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>Question Retrieval on Health Forum</h3>
@@ -56,7 +56,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio even">
-            <img className="hideImgPort" src="/images/portfolios/youtox.png"/>
+            <img className="hideImgPort" src="images/portfolios/youtox.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>YouTube Toximeter</h3>

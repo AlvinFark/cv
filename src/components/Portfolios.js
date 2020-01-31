@@ -31,7 +31,7 @@ const Portfolios = () => {
             <div className="detail hideTextPort">
               <h3>This CV Page Itself</h3>
               <p>I built this page for the purpose of intoducing myself to the world of web development industry</p>
-              <p>Developed with <b>React</b>, <b>Bootstrap</b>, and <b>github.io</b></p>
+              <p>Developed with <b>React</b>, <b>Bootstrap</b>, <b>Sass</b> and <b>github.io</b></p>
               <p>My role in this project is <b>Frontend Developer</b></p>
             </div>
           </div>

@@ -25,6 +25,7 @@ const Skills = () => {
             <ListGroupItem className="hide">scikit-learn</ListGroupItem>
             <ListGroupItem className="hide">Gensim</ListGroupItem>
             <ListGroupItem className="hide">Git</ListGroupItem>
+            <ListGroupItem className="hide">Figma</ListGroupItem>
             <ListGroupItem className="hide">CorelDraw</ListGroupItem>
             <ListGroupItem className="hide">Photoshop</ListGroupItem>
             <ListGroupItem className="hide">After Effect</ListGroupItem>

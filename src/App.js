@@ -94,7 +94,7 @@ window.onscroll = function() {
     document.getElementById("skills").children[0].classList.add('show');
     document.getElementById("skills").children[0].classList.remove('hide');
     setTimeout(function(){
-      for (let index = 0; index < 23; index++) {
+      for (let index = 0; index < 24; index++) {
         setTimeout(() => {
           document.getElementById("skills").children[1].children[index].classList.add('show');
           document.getElementById("skills").children[1].children[index].classList.remove('hide');

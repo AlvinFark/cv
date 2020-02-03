@@ -17,7 +17,7 @@ const Header = () => {
       <div id="placeholderShadowHeader" className="shadow-gone">
         <Container>
           <Navbar expand="md" style={{justifyContent:"center"}}>
-            <NavbarBrand id="logo" href="#" style={{marginRight:"0"}} className="hide"><img src="images/logo.png" alt="logo"/></NavbarBrand>
+            <NavbarBrand id="logo" href="#" style={{marginRight:"0"}} className="hide"><img src="https://res.cloudinary.com/alvark/image/upload/v1580712578/CV/logo_uwo5hx.png" alt="logo"/></NavbarBrand>
             <Collapse navbar>
               <Nav className="mr-auto justify-content-end hide" id="navList" navbar>
                 <NavItem onClick={() => scroll("home")}>Home</NavItem>

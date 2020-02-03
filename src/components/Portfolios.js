@@ -6,7 +6,7 @@ const Portfolios = () => {
       <div id="portfolios">
           <div className="headingSection hide" style={{paddingBottom:"20px"}}><h2>Portfolios</h2><div className="underscore"></div></div>
           <div className="d-flex align-items-center justify-content-center portfolio">
-            <img className="hideImgPort" src="images/portfolios/sikawan.jpg"/>
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/sikawan_xlj7kt.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>SiKawan</h3>
@@ -16,7 +16,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio even">
-            <img className="hideImgPort" src="images/portfolios/blibli.jpg"/>
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710758/CV/Portfolio/blibli_msn9xk.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>Bliblinventory</h3>
@@ -26,7 +26,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio">
-            <img className="hideImgPort" src="images/portfolios/cv.jpg"/>
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/cv_fjzi7p.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>This CV Page Itself</h3>
@@ -36,7 +36,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio even">
-            <img className="hideImgPort" src="images/portfolios/psycallogy.jpg"/>
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/psycallogy_jeep0c.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>Psycallogy</h3>
@@ -46,7 +46,7 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio">
-            <img className="hideImgPort" src="images/portfolios/skripsi.jpg"/>
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/skripsi_fe5hfo.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>Question Retrieval on Health Forum</h3>
@@ -56,13 +56,33 @@ const Portfolios = () => {
             </div>
           </div>
           <div className="d-flex align-items-center justify-content-center portfolio even">
-            <img className="hideImgPort" src="images/portfolios/youtox.jpg"/>
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/youtox_p8at39.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>YouTube Toximeter</h3>
               <p>For my Data Science Course final project, My team develop an application that calculate toxicity level of Indonesian YouTube videos based on their comments. </p>
               <p>Developed with <b>Python</b>, <b>Flask</b>, <b>YouTube Data API</b>, <b>wordcloud</b>, and <b>matplotlib</b></p>
               <p>My role in this project are <b>Fullstack Developer</b> and <b>Data Scientist</b></p>
+            </div>
+          </div>
+          <div className="d-flex align-items-center justify-content-center portfolio">
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/video_urmpx8.jpg"/>
+            <div style={{width:"3vw"}}></div>
+            <div className="detail hideTextPort">
+              <h3>OmahTI Introduction Video</h3>
+              <p>Introduction video for my university organization</p>
+              <p>Created using <b>Adobe After Effect</b></p>
+              <p>My role in this project is <b>Motion Graphic Artist</b></p>
+            </div>
+          </div>
+          <div className="d-flex align-items-center justify-content-center portfolio even">
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/buku_kqjs9m.jpg"/>
+            <div style={{width:"3vw"}}></div>
+            <div className="detail hideTextPort">
+              <h3>Biodiversitas Natuna</h3>
+              <p>Book about Natuna Island and the biodiversity that lives in it.</p>
+              <p>Created using <b>CorelDraw</b></p>
+              <p>My role in this project are <b>Layout Designer</b></p>
             </div>
           </div>
       </div>

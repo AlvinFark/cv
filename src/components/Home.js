@@ -8,7 +8,7 @@ const Home = () => {
           <div style={{fontSize:"2.5rem"}}>ALVIN FARKHAN</div>
           <div style={{fontSize:"1.5rem"}}>I'm a Web Developer</div>
         </div>
-        <img id="foto" src="images/foto.png" alt="foto" className="hideFoto"/>
+        <img id="foto" src="https://res.cloudinary.com/alvark/image/upload/v1580710742/CV/foto_cmxarf.png" alt="foto" className="hideFoto"/>
       </div>
     );
   }

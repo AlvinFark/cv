@@ -71,21 +71,19 @@ window.onscroll = function() {
     var cr = sr[1].children;
     cr[0].classList.add('showCard');cr[0].classList.remove('hideCard');
     cr[1].classList.add('showCard');cr[1].classList.remove('hideCard');
-    cr = sr[2].children;
-    cr[0].classList.add('showCard');cr[0].classList.remove('hideCard');
-    cr[1].classList.add('showCard');cr[1].classList.remove('hideCard');
+    cr[2].classList.add('showCard');cr[1].classList.remove('hideCard');
     setTimeout(function(){
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 3; i++) {
         document.getElementsByClassName("hideTextCard")[3*i].classList.add('showTextCard');
       }
     }, 650);
     setTimeout(function(){
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 3; i++) {
         document.getElementsByClassName("hideTextCard")[3*i+1].classList.add('showTextCard');
       }
     }, 800);
     setTimeout(function(){
-      for (let i = 0; i < 4; i++) {
+      for (let i = 0; i < 3; i++) {
         document.getElementsByClassName("hideTextCard")[3*i+2].classList.add('showTextCard');
       }
     }, 950);
@@ -94,10 +92,20 @@ window.onscroll = function() {
     document.getElementById("skills").children[0].classList.add('show');
     document.getElementById("skills").children[0].classList.remove('hide');
     setTimeout(function(){
-      for (let index = 0; index < 24; index++) {
+      for (let index = 0; index < 11; index++) {
         setTimeout(() => {
           document.getElementById("skills").children[1].children[index].classList.add('show');
           document.getElementById("skills").children[1].children[index].classList.remove('hide');
+        }, index*50);
+      }
+    }, 300);
+    document.getElementById("skills").children[2].classList.add('show');
+    document.getElementById("skills").children[2].classList.remove('hide');
+    setTimeout(function(){
+      for (let index = 0; index < 15; index++) {
+        setTimeout(() => {
+          document.getElementById("skills").children[3].children[index].classList.add('show');
+          document.getElementById("skills").children[3].children[index].classList.remove('hide');
         }, index*50);
       }
     }, 300);
@@ -105,7 +113,7 @@ window.onscroll = function() {
   if (document.body.scrollTop > document.getElementById("portfolios").offsetTop-500 || document.documentElement.scrollTop > document.getElementById("portfolios").offsetTop-500) {
     document.getElementById("portfolios").children[0].classList.add('show');
     document.getElementById("portfolios").children[0].classList.remove('hide');
-    for (let index = 1; index <= 8; index++) {
+    for (let index = 1; index <= 11; index++) {
       setTimeout(() => {
         document.getElementById("portfolios").children[index].children[0].classList.add('showImgPort'); 
         document.getElementById("portfolios").children[index].children[0].classList.remove('hideImgPort'); 

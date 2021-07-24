@@ -6,7 +6,37 @@ const Portfolios = () => {
       <div id="portfolios">
           <div className="headingSection hide" style={{paddingBottom:"20px"}}><h2>Portfolios</h2><div className="underscore"></div></div>
           <div className="d-flex align-items-center justify-content-center portfolio">
-            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/sikawan_xlj7kt.jpg"/>
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1627128699/CV/Portfolio/subs_k4ifng.png"/>
+            <div style={{width:"3vw"}}></div>
+            <div className="detail hideTextPort">
+              <h3>DANA Indonesia</h3>
+              <p>Working in recurring team to develop DANA’s subscription auto pay and auto top up solution. Also working on other projects such as bulk payment, internal system persistent task scheduler, social features and back office. Also contributed to maintain member and recurring system.</p>
+                <p>Developed using <b><a href={"https://www.sofastack.tech/en/projects/sofa-boot/overview/"}>Java Sofaboot</a></b> and <b>Java Springboot</b></p>
+              <p>My role in this project is <b>Backend Developer</b></p>
+            </div>
+          </div>
+          <div className="d-flex align-items-center justify-content-center portfolio even">
+              <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1627129448/CV/Portfolio/wipps_xzbauk.png"/>
+              <div style={{width:"3vw"}}></div>
+              <div className="detail hideTextPort">
+                  <h3>WIPPS Pertamina</h3>
+                  <p>Project from Pertamina to build Maintenance, Safety and Supervising Management app to be used at Pertamina's offshore oil rig across the nation. You can view the page <a href={"https://www.wipps-pertamina.com/"}>here</a></p>
+                  <p>Developed using <b>Nuxt.js</b>, and <b>Bootstrap</b></p>
+                  <p>My role in this project is <b>Frontend Developer</b></p>
+              </div>
+          </div>
+          <div className="d-flex align-items-center justify-content-center portfolio">
+              <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1627129832/CV/Portfolio/ilmu_xbbgkx.png"/>
+              <div style={{width:"3vw"}}></div>
+              <div className="detail hideTextPort">
+                  <h3>DANA Ilmu mini-program</h3>
+                  <p>Project to create online and offline course market place using DANA's own mini-program front-end framework. Purpose of this development is to challenge developer creating app using new knowledge in short time, test the quality of the framework and finding new features idea</p>
+                  <p>Developed using <a href={"https://mini-program.dana.id/"}>DANA mini-program</a>, and <b>Java Spring boot</b></p>
+                  <p>My role in this project is <b>Fullstack Developer</b></p>
+              </div>
+          </div>
+          <div className="d-flex align-items-center justify-content-center portfolio even">
+            <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1627129060/CV/Portfolio/sikawan_er5c7p.png"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
               <h3>SiKawan</h3>
@@ -15,7 +45,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Frontend Developer</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio even">
+          <div className="d-flex align-items-center justify-content-center portfolio">
             <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710758/CV/Portfolio/blibli_msn9xk.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
@@ -25,7 +55,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Fullstack Developer</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio">
+          <div className="d-flex align-items-center justify-content-center portfolio even">
             <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/cv_fjzi7p.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
@@ -35,7 +65,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Frontend Developer</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio even">
+          <div className="d-flex align-items-center justify-content-center portfolio">
             <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/psycallogy_jeep0c.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
@@ -45,7 +75,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Backend Developer</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio">
+          <div className="d-flex align-items-center justify-content-center portfolio even">
             <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/skripsi_fe5hfo.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
@@ -55,7 +85,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Data Scientist</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio even">
+          <div className="d-flex align-items-center justify-content-center portfolio">
             <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/youtox_p8at39.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
@@ -65,7 +95,7 @@ const Portfolios = () => {
               <p>My role in this project are <b>Fullstack Developer</b> and <b>Data Scientist</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio">
+          <div className="d-flex align-items-center justify-content-center portfolio even">
             <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/video_urmpx8.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
@@ -75,7 +105,7 @@ const Portfolios = () => {
               <p>My role in this project is <b>Motion Graphic Artist</b></p>
             </div>
           </div>
-          <div className="d-flex align-items-center justify-content-center portfolio even">
+          <div className="d-flex align-items-center justify-content-center portfolio">
             <img className="hideImgPort" src="https://res.cloudinary.com/alvark/image/upload/v1580710759/CV/Portfolio/buku_kqjs9m.jpg"/>
             <div style={{width:"3vw"}}></div>
             <div className="detail hideTextPort">
